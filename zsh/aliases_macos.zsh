@@ -1,5 +1,5 @@
 # Misc
-alias b="batcat"
+alias b="bat"
 alias c="cd && clear"
 alias i="neofetch"
 alias l="ls -aFlsh"
@@ -9,8 +9,8 @@ alias so="source ~/.zshrc"
 
 # Package management (Homebrew)
 alias bi="brew install"
-alias bic="brew install -cask"
-alias bs="brew search search"
+alias bic="brew install --cask"
+alias bs="brew search"
 alias check="brew update && brew upgrade"
 
 # Dev
