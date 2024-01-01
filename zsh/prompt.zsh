@@ -1,4 +1,3 @@
-# TODO : Add git, completion time, time, battery
 # Reference : https://salferrarello.com/zsh-git-status-prompt/
 
 # Functions
@@ -7,7 +6,6 @@ function reset() {
     echo "%{$reset_color%}"
 }
 
-# TODO : Add mint, kali, manjaro, cinnamon, opensuse,
 function os_symbol() {
     case "$(uname -s)" in
     Linux*)

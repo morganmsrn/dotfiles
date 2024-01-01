@@ -12,4 +12,4 @@ This repository lets me version control my config files and can also serve as an
 
 ## Usage
 
-- TODO : write a shell script to automate the linking of files from this repository.
+Check each folder for specific documentation and usage.

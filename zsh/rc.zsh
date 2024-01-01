@@ -8,12 +8,11 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Load completion & config
 fpath+=~/.zfunc
-source ~/.zsh_aliases
-source ~/.zsh_prompt
+source ~/.zsh_aliases # Link from aliases_[os].zsh
+source ~/.zsh_prompt  # Link from prompt.zsh
+source ~/.zsh_custom  # Extra file for custom info depending on the machine, os...
 
 # History
 HISTFILE=~/.zsh_history
 HISTSIZE=5000
 SAVEHIST=5000
-
-# Extra sources & stuff
