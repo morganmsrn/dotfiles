@@ -1,0 +1,23 @@
+#!/bin/zsh
+
+# Layout management as a tiling manager
+yabai -m config layout bsp
+
+# New windows spawns on the right or bottom
+yabai -m config window_placement second_child
+
+# Padding
+yabai -m config top_padding     16
+yabai -m config bottom_padding  16
+yabai -m config left_padding    16
+yabai -m config right_padding   16
+yabai -m config window_gap      16
+
+# Mouse focus
+yabai -m config mouse_follows_focus on
+
+# Swap windows with mouse
+yabai -m mouse_drop_action swap
+
+# Disable for some specific app
+yabai -m rule --add app="^System Settings$" manage=off
