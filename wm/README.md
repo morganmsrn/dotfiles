@@ -15,4 +15,5 @@ Once setup, you can start using both of these with :
 
 ``` zsh
 yabai --start-service
+skhd --start-service
 ```
