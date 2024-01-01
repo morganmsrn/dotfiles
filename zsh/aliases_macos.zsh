@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # Misc
 alias b="bat"
 alias c="cd && clear"

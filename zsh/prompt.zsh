@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # Reference : https://salferrarello.com/zsh-git-status-prompt/
 
 # Functions
