@@ -14,8 +14,8 @@ This folder contains the file I use to setup ZSH, which I use on all my UNIX mac
 The `rc.zsh` and the `prompt.zsh` files are common to all my setups. They should be linked in the home directory like so :
 
 ```zsh
-ln -s ~/.zshrc [repo]/zsh/rc.zsh
-ln -s ~/.zsh_prompt [repo]/zsh/prompt.zsh
+ln -s [repo]/zsh/rc.zsh ~/.zshrc
+ln -s [repo]/zsh/prompt.zsh ~/.zsh_prompt
 ```
 
 My aliases are usually different from OS to OS (mainly due to differences in package manager and commands). The needed alias file should be imported like so :
