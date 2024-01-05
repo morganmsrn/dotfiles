@@ -19,3 +19,4 @@ alias check="sudo apt update && sudo apt upgrade && sudo apt autoremove && flatp
 alias cc="clang"
 alias cpp="clang++"
 alias nrd="npm run dev"
+alias sail=".vendor/bin/sail"

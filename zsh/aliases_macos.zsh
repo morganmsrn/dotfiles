@@ -18,4 +18,5 @@ alias check="brew update && brew upgrade"
 # Dev
 alias cc="clang"
 alias cpp="clang++"
+alias sail="./vendor/bin/sail"
 alias nrd="npm run dev"
