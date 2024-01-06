@@ -9,6 +9,8 @@ This repository lets me version control my config files and can also serve as an
 ## Contents
 
 - Shell : ZSH (requires oh-my-zsh for the prompt)
+- WM : yabai for MacOS (used with skhd for shortcut management)
+- Term : WezTerm
 
 ## Usage
 
